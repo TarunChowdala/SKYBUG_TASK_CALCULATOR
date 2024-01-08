@@ -1,0 +1,80 @@
+.container {
+  min-height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.calculator-container {
+  background-color: #3b4455;
+  box-shadow: 1px 1px 5px 1px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.display-box {
+  box-shadow: inset 1px 1px 5px 1px;
+  width: 86%;
+  height: 120px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.display-input {
+  outline: none;
+  border-style: none;
+  font-size: 30px;
+  background-color: transparent;
+  text-align: right;
+  flex: 1;
+  color: white;
+}
+.display {
+  font-size: 30px;
+  color: black;
+}
+.button {
+  width: 60px;
+  height: 50px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px 1px whitesmoke;
+  border-radius: 10px;
+  background-color: #3b4455;
+  cursor: pointer;
+  font-size: 20px;
+}
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.lower-button-container {
+  display: flex;
+
+  justify-content: space-between;
+}
+.lower-button-inner-container {
+  width: 73%;
+}
+.equal-button {
+  height: 120px;
+  box-shadow: 1px 1px 5px 1px aquamarine;
+}
+.dot-icon {
+  font-size: 5px;
+}
+.number-icon {
+  color: white;
+}
+.functional-icon {
+  color: aquamarine;
+}
+.operation-button {
+  box-shadow: 1px 1px 5px 1px aquamarine;
+}

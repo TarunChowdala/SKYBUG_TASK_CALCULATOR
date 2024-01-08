@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/a684cd0a7e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator-container">
+        <div class="display-box" id="display-box">
+          <input class="display-input" value="" id="display" placeholder="0" />
+        </div>
+
+        <div class="button-container">
+          <button
+            class="button functional-icon operation-button"
+            onclick="onclickButton('AC')"
+          >
+            AC
+          </button>
+          <button
+            class="button operation-button"
+            onclick="onclickButton('del')"
+          >
+            <i class="fa-solid fa-delete-left functional-icon"></i>
+          </button>
+          <button class="button operation-button" onclick="onclickButton('.')">
+            <i class="fa-sharp fa-solid fa-circle dot-icon functional-icon"></i>
+          </button>
+          <button class="button operation-button" onclick="onclickButton('/')">
+            <i class="fa-solid fa-divide functional-icon"></i>
+          </button>
+        </div>
+        <div class="button-container">
+          <button class="button" onclick="onclickButton('7')">
+            <i class="fa-solid fa-7 number-icon"></i>
+          </button>
+          <button class="button" onclick="onclickButton('8')">
+            <i class="fa-solid fa-8 number-icon"></i>
+          </button>
+          <button class="button" onclick="onclickButton('9')">
+            <i class="fa-solid fa-9 number-icon"></i>
+          </button>
+          <button class="button operation-button" onclick="onclickButton('*')">
+            <i class="fa-solid fa-xmark functional-icon"></i>
+          </button>
+        </div>
+        <div class="button-container">
+          <button class="button" onclick="onclickButton('4')">
+            <i class="fa-solid fa-4 number-icon"></i>
+          </button>
+          <button class="button" onclick="onclickButton('5')">
+            <i class="fa-solid fa-5 number-icon"></i>
+          </button>
+          <button class="button" onclick="onclickButton('6')">
+            <i class="fa-solid fa-6 number-icon"></i>
+          </button>
+          <button class="button operation-button" onclick="onclickButton('-')">
+            <i class="fa-solid fa-minus functional-icon"></i>
+          </button>
+        </div>
+        <div class="lower-button-container">
+          <div class="lower-button-inner-container">
+            <div class="button-container">
+              <button class="button" onclick="onclickButton('1')">
+                <i class="fa-solid fa-1 number-icon"></i>
+              </button>
+              <button class="button" onclick="onclickButton('2')">
+                <i class="fa-solid fa-2 number-icon"></i>
+              </button>
+              <button class="button" onclick="onclickButton('3')">
+                <i class="fa-solid fa-3 number-icon"></i>
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button number-icon" onclick="onclickButton('00')">
+                00
+              </button>
+              <button class="button" onclick="onclickButton('0')">
+                <i class="fa-solid fa-0 number-icon"></i>
+              </button>
+              <button
+                class="button operation-button"
+                onclick="onclickButton('+')"
+              >
+                <i class="fa-solid fa-plus functional-icon"></i>
+              </button>
+            </div>
+          </div>
+          <button class="button equal-button" onclick="onclickButton('=')">
+            <i class="fa-solid fa-equals functional-icon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
