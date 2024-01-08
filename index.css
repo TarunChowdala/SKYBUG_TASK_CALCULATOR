@@ -15,7 +15,7 @@
   padding: 20px;
 }
 .display-box {
-  box-shadow: inset 1px 1px 5px 1px;
+  box-shadow: inset 1px 1px 5px 1px whitesmoke;
   width: 86%;
   height: 120px;
   border-radius: 10px;
